@@ -616,7 +616,7 @@ planet.position.set(0, 0, 0);
 scene.add(planet);
 
 // === RING TEXT ===
-const ringTexts = ["i love you", "Nguyen Ngoc Yen Nhi", "20/03/2005"];
+const ringTexts = ["i love you", "Huynh Thanh Thao", "29/08/2011"];
 
 const fontLoader = new FontLoader();
 fontLoader.load(
@@ -1077,9 +1077,9 @@ let galaxyAudio = null;
 
 function playGalaxyAudio() {
   if (!galaxyAudio) {
-    galaxyAudio = new Audio("https://files.thanhtuan.click/1749558540633_audioclip-1749558428000-58514.mp4");
+    galaxyAudio = "https://files.catbox.moe/rb3qug.mov");
     galaxyAudio.loop = true;
-    galaxyAudio.volume = 0.7;
+    galaxyAudio.volume = 1.0;
   }
   galaxyAudio.play();
 }
