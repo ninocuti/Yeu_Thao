@@ -1077,7 +1077,7 @@ let galaxyAudio = null;
 
 function playGalaxyAudio() {
   if (!galaxyAudio) {
-    galaxyAudio = "https://files.catbox.moe/rb3qug.mov");
+    galaxyAudio = new Audio("https://files.catbox.moe/rb3qug.mov");
     galaxyAudio.loop = true;
     galaxyAudio.volume = 1.0;
   }
